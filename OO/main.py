@@ -6,7 +6,7 @@ from os.path import isdir, join
 from multiprocessing import Pool
 import sys
 import tqdm
-import matplotlib.pylab as plt
+
 
 import time
 
