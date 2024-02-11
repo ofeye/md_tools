@@ -30,9 +30,8 @@ def checkData(GeomFilePathArr):
         try:
             getSingleData(15,1,GeomFilePathArr[i])
         except:
-            print("{} bütün verilere sahip değil".format(titleName))
+            print("{} does not have all data.".format(titleName))
 
 GeomfilePathArr=findFilePath('','dat')
-#print(GeomfilePathArr[0])
 checkData(GeomfilePathArr)
 
